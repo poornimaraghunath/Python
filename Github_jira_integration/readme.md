@@ -21,4 +21,19 @@
   3. python app cration
   4. python script execution 
 
-# We need to interact with jira through API 
+# We need to interact with jira through API to make API call we need to generate API token.
+
+# How to create API token in jira 
+
+1. Go to profile 
+2. Manage your account
+3. Security 
+4. API Token : ATATT3xFfGF0esGjRq5zNl1NI1VRVkeqGlyJF770cg1Ae3qjjhHf0vwlgpKAzFiune5G8k3p2tdE845gK3ayZ9vj2nq8wOynYdGe4DWt-BPaCZNBXOHfvY5Hy6qdp9ez8udiK5WDRhgUfVOTw94uVqT2NbpsMeo5vSBZxeFvrEIzP4ubhOK7A5Q=C0C6943C
+
+# Use this document for jira API 
+https://developer.atlassian.com/cloud/jira/software/rest/intro/#introduction
+
+# We can list the projects created on jira dash board using an API by writing the program(link to list the projects)
+https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-projects/#api-rest-api-3-project-get
+
+Never forget to enter the email id and API token
