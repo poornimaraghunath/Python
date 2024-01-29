@@ -11,4 +11,14 @@
 #In this if any comments /jira on the issue it will trigger the webhooks on github and provides the information about the issue to the python application deployed on Ec2.Github will provide the information in the form of json data to python application and then python application makes an api call to jira to cretae the backlog
 
 #In this will learn how to create  jira backlog how to use jira apps and then how to write the python application using flask.
+
 #Then will learn how to convert python application for flask and then how to host it on ec2 and then how to setup webhook for that
+
+# steps involved in this project
+  
+  1. Jira account creation
+  2. Jira api calls
+  3. python app cration
+  4. python script execution 
+
+# We need to interact with jira through API 
