@@ -9,6 +9,7 @@ import os
 url = "https://poornimacr.atlassian.net/rest/api/3/issue"
 
 API_TOken = os.environ.get('JIRA_API_TOKEN')
+
 auth = HTTPBasicAuth("poonimaraghunath18@gmail.com", API_TOken)
 
 headers = {
@@ -44,7 +45,7 @@ payload = json.dumps( {
    
     
     "project": {
-      "key": "MYP"           #id to key 
+      "key": "TEST"           
     },
     
     
